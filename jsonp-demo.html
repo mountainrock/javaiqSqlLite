@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+        <script>
+            $(document).ready(function(){
+			$.getJSON( "http://jshoutbox.appspot.com/qa/listJson?password=sandeep123&page=1&size=1", function( data ){
+  console.log( data.title ); // Logs "jQuery Howto"
+});
+
+                $.ajax({
+                    url: 'http://jshoutbox.appspot.com/qa/listJson?password=sandeep123&page=1&size=1',
+					
+					headers: { 'Accept-Encoding' : 'deflate' },
+					beforeSend : function (xhr) {
+						xhr.setRequestHeader('Accept-Encoding', 'identity');
+						xhr.setRequestHeader('X-Test', 'foo');
+					},
+                    dataType: 'jsonp',
+					crossDomain: true,
+                    success: function(dataWeGotViaJsonp){                        
+                       alert(dataWeGotViaJsonp)
+                        $('#twitterFeed').html(dataWeGotViaJsonp);
+                    }
+                });
+            })
+        </script>
+    </head>
+    <body>
+        <div id = 'twitterFeed'></div>
+    </body>
+</html>
