@@ -1,0 +1,182 @@
+[
+   {
+      "id":5678807906254848,
+      "language":"Java",
+      "category":"Architecture, Patterns, UML...",
+      "subCategory":"Agile methodologies",
+      "questionTxt":{
+         "value":"PDF Notes on Agile quality are below"
+      },
+      "answerTxt":{
+         "value":"<a href=\"AgileQuality.pdf\">Agile TDD quality</a><br/><br/>\r\n<a href=\"AgileMethodologies.pdf\">Agile XP with TDD</a><br/><br/>\r\n<a href=\"Scrum.pdf\">Agile SCRUM</a>"
+      },
+      "question":"PDF Notes on Agile quality are below",
+      "answer":"<a href=\"AgileQuality.pdf\">Agile TDD quality</a><br/><br/>\r\n<a href=\"AgileMethodologies.pdf\">Agile XP with TDD</a><br/><br/>\r\n<a href=\"Scrum.pdf\">Agile SCRUM</a>",
+      "rating":1,
+      "date":1426489891626,
+      "usersRated":0,
+      "level":2
+   },
+   {
+      "id":5106333862854656,
+      "language":"Java",
+      "category":"Architecture, Patterns, UML...",
+      "subCategory":"Gang of four (Creational, Structural...)",
+      "questionTxt":{
+         "value":" Design patterns (GoF)"
+      },
+      "answerTxt":{
+         "value":"Design patterns are recurring solutions to software design problems you find again and again in real-world application development. Patterns are about design and interaction of objects, as well as providing a communication platform concerning elegant, reusable solutions to commonly encountered programming challenges.<br/>\n\nThe Gang of Four (GoF) patterns are generally considered the foundation for all other patterns. They are categorized in three groups: Creational, Structural, and Behavioral. Here you will find information on these important patterns."
+      },
+      "question":" Design patterns (GoF)",
+      "answer":"Design patterns are recurring solutions to software design problems you find again and again in real-world application development. Patterns are about design and interaction of objects, as well as providing a communication platform concerning elegant, reusable solutions to commonly encountered programming challenges.<br/>\n\nThe Gang of Four (GoF) patterns are generally considered the foundation for all other patterns. They are categorized in three groups: Creational, Structural, and Behavioral. Here you will find information on these important patterns.",
+      "rating":0,
+      "date":1426225444392,
+      "usersRated":0,
+      "level":2
+   },
+   {
+      "id":5663741160980480,
+      "language":"Java",
+      "category":"Architecture, Patterns, UML...",
+      "subCategory":"Gang of four (Creational, Structural...)",
+      "questionTxt":{
+         "value":" Structural  Patterns"
+      },
+      "answerTxt":{
+         "value":"<ul>\n<li><b>Adapter</b> : Match interfaces of different classes <br/><img src=\"images/adapter.gif\"/></li>\n<li><b>Bridge</b> : Separates an object's interface from its implementation <br/><img src=\"images/bridge.gif\"/></li>\n<li><b>Composite</b> : A tree structure of simple and composite objects <br/><img src=\"images/composite.gif\"/></li>\n<li><b>Decorator</b> : Add responsibilities to objects dynamically <br/><img src=\"images/decorator.gif\"/></li>\n<li><b>Facade</b> : A single class that represents an entire subsystem <br/><img src=\"images/facade.gif\"/></li>\n<li><b>Flyweight</b> : A fine-grained instance used for efficient sharing <br/><img src=\"images/flyweight.gif\"/></li>\n<li><b>Proxy</b> : An object representing another object <br/><img src=\"images/proxy.gif\"/></li>\n</ul>"
+      },
+      "question":" Structural  Patterns",
+      "answer":"<ul>\n<li><b>Adapter</b> : Match interfaces of different classes <br/><img src=\"images/adapter.gif\"/></li>\n<li><b>Bridge</b> : Separates an object's interface from its implementation <br/><img src=\"images/bridge.gif\"/></li>\n<li><b>Composite</b> : A tree structure of simple and composite objects <br/><img src=\"images/composite.gif\"/></li>\n<li><b>Decorator</b> : Add responsibilities to objects dynamically <br/><img src=\"images/decorator.gif\"/></li>\n<li><b>Facade</b> : A single class that represents an entire subsystem <br/><img src=\"images/facade.gif\"/></li>\n<li><b>Flyweight</b> : A fine-grained instance used for efficient sharing <br/><img src=\"images/flyweight.gif\"/></li>\n<li><b>Proxy</b> : An object representing another object <br/><img src=\"images/proxy.gif\"/></li>\n</ul>",
+      "rating":0,
+      "date":1426225456062,
+      "usersRated":0,
+      "level":2
+   },
+   {
+      "id":5730192894984192,
+      "language":"Java",
+      "category":"Architecture, Patterns, UML...",
+      "subCategory":"Gang of four (Creational, Structural...)",
+      "questionTxt":{
+         "value":" Behavioral Patterns"
+      },
+      "answerTxt":{
+         "value":"<ul>\n<li><b>Chain of Resp.</b> : A way of passing a request between a chain of objects<br/><img src=\"images/chain.gif\"/></li>\n<li><b>Command</b> : Encapsulate a command request as an object<br/><img src=\"images/command.gif\"/></li>\n<li><b>Interpreter</b> : A way to include language elements in a program<br/><img src=\"images/interpreter.gif\"/></li>\n<li><b>Iterator</b> : Sequentially access the elements of a collection<br/><img src=\"images/iterator.gif\"/></li>\n<li><b>Mediator</b> : Defines simplified communication between classes<br/><img src=\"images/mediator.gif\"/></li>\n<li><b>Memento</b> : Capture and restore an object's internal state<br/><img src=\"images/memento.gif\"/></li>\n<li><b>Observer</b> : A way of notifying change to a number of classes<br/><img src=\"images/observer.gif\"/></li>\n<li><b>State</b> : Alter an object's behavior when its state changes<br/><img src=\"images/state.gif\"/></li>\n<li><b>Strategy</b> : Encapsulates an algorithm inside a class<br/><img src=\"images/strategy.gif\"/></li>\n<li><b>Template Method</b> : Defer the exact steps of an algorithm to a subclass<br/><img src=\"images/template.gif\"/></li>\n<li><b>Visitor</b> : Defines a new operation to a class without change<br/><img src=\"images/visitor.gif\"/></li>\n</ul>"
+      },
+      "question":" Behavioral Patterns",
+      "answer":"<ul>\n<li><b>Chain of Resp.</b> : A way of passing a request between a chain of objects<br/><img src=\"images/chain.gif\"/></li>\n<li><b>Command</b> : Encapsulate a command request as an object<br/><img src=\"images/command.gif\"/></li>\n<li><b>Interpreter</b> : A way to include language elements in a program<br/><img src=\"images/interpreter.gif\"/></li>\n<li><b>Iterator</b> : Sequentially access the elements of a collection<br/><img src=\"images/iterator.gif\"/></li>\n<li><b>Mediator</b> : Defines simplified communication between classes<br/><img src=\"images/mediator.gif\"/></li>\n<li><b>Memento</b> : Capture and restore an object's internal state<br/><img src=\"images/memento.gif\"/></li>\n<li><b>Observer</b> : A way of notifying change to a number of classes<br/><img src=\"images/observer.gif\"/></li>\n<li><b>State</b> : Alter an object's behavior when its state changes<br/><img src=\"images/state.gif\"/></li>\n<li><b>Strategy</b> : Encapsulates an algorithm inside a class<br/><img src=\"images/strategy.gif\"/></li>\n<li><b>Template Method</b> : Defer the exact steps of an algorithm to a subclass<br/><img src=\"images/template.gif\"/></li>\n<li><b>Visitor</b> : Defines a new operation to a class without change<br/><img src=\"images/visitor.gif\"/></li>\n</ul>",
+      "rating":0,
+      "date":1426225462126,
+      "usersRated":0,
+      "level":2
+   },
+   {
+      "id":5743868070854656,
+      "language":"Java",
+      "category":"Architecture, Patterns, UML...",
+      "subCategory":"Gang of four (Creational, Structural...)",
+      "questionTxt":{
+         "value":" Creational Patterns"
+      },
+      "answerTxt":{
+         "value":"<ul>\n<li>  <b>Singleton</b> : A class of which only a single instance can exist <br/><img src=\"images/singleton.gif\"/></li>\n<li>  <b>Factory Method</b> : Creates an instance of several derived classes <br/><img src=\"images/factory.gif\"/></li>\n<li>  <b>Abstract Factory</b> : Creates an instance of several families of classes <br/><img src=\"images/abstract.gif\"/></li>\n<li>  <b>Builder</b> : Separates object construction from its representation <br/><img src=\"images/builder.gif\"/></li>\n<li>  <b>Prototype</b> : A fully initialized instance to be copied or cloned <br/><img src=\"images/prototype.gif\"/></li>\n</ul>"
+      },
+      "question":" Creational Patterns",
+      "answer":"<ul>\n<li>  <b>Singleton</b> : A class of which only a single instance can exist <br/><img src=\"images/singleton.gif\"/></li>\n<li>  <b>Factory Method</b> : Creates an instance of several derived classes <br/><img src=\"images/factory.gif\"/></li>\n<li>  <b>Abstract Factory</b> : Creates an instance of several families of classes <br/><img src=\"images/abstract.gif\"/></li>\n<li>  <b>Builder</b> : Separates object construction from its representation <br/><img src=\"images/builder.gif\"/></li>\n<li>  <b>Prototype</b> : A fully initialized instance to be copied or cloned <br/><img src=\"images/prototype.gif\"/></li>\n</ul>",
+      "rating":0,
+      "date":1426225450216,
+      "usersRated":0,
+      "level":2
+   },
+   {
+      "id":5697070107197440,
+      "language":"Java",
+      "category":"Architecture, Patterns, UML...",
+      "subCategory":"General",
+      "questionTxt":{
+         "value":"what would one look for in an enterprise architect?"
+      },
+      "answerTxt":{
+         "value":"<ul>\n<li><b>Visual Thinking</b> - the need to communicate with pictures rather than words</li>\n<li><b>The ability to communicate</b> complex ideas to widely different audiences.  Excellent written communication skills as well as the ability to both speak in small and large audiences.</li>\n<li><b>A firm grasp of process</b> engineering, lean or six sigma.</li>\n<li><b>A reasonable grounding in the notions of business capability modeling</b> and application-to-capability mapping (needed for simplification and redundancy review exercises).</li>\n<li><b>The ability to lead architectural review</b> sessions using the ATAM method of application architectural evaluation.</li>\n<li><b>A firm foundation in current ideas</b> in software architecture, including SOA,\nMDA, EDA, and basic OOD.  An understanding of the concept of pattern languages as well as deep knowledge of OO design patterns, architectural patterns, and messaging patterns.</li>\n<li><b>A solid understanding of software development processes</b> and methodologies: Agile, RUP, Spiral, Waterfall... and the ability to describe actual situations that may be appropriate for each one (yes, including Waterfall).</li>\n<li><b>Reasonable experience in network infrastructure</b>, including TCP networking, Firewalls, Routing, and Load Balancing. </li>\n<li><b>Solid understanding of encryption</b>, authorization, authentication, and security mechanisms, especially the foundational elements of the Public Key Infrastructure.</li>\n<li><b>Excellent knowledge of data management</b>, including operational uses of RDBMS, Extract-Translate-Load operations, business intelligence data management, and data distribution / caching strategies</li>\n</ul>"
+      },
+      "question":"what would one look for in an enterprise architect?",
+      "answer":"<ul>\n<li><b>Visual Thinking</b> - the need to communicate with pictures rather than words</li>\n<li><b>The ability to communicate</b> complex ideas to widely different audiences.  Excellent written communication skills as well as the ability to both speak in small and large audiences.</li>\n<li><b>A firm grasp of process</b> engineering, lean or six sigma.</li>\n<li><b>A reasonable grounding in the notions of business capability modeling</b> and application-to-capability mapping (needed for simplification and redundancy review exercises).</li>\n<li><b>The ability to lead architectural review</b> sessions using the ATAM method of application architectural evaluation.</li>\n<li><b>A firm foundation in current ideas</b> in software architecture, including SOA,\nMDA, EDA, and basic OOD.  An understanding of the concept of pattern languages as well as deep knowledge of OO design patterns, architectural patterns, and messaging patterns.</li>\n<li><b>A solid understanding of software development processes</b> and methodologies: Agile, RUP, Spiral, Waterfall... and the ability to describe actual situations that may be appropriate for each one (yes, including Waterfall).</li>\n<li><b>Reasonable experience in network infrastructure</b>, including TCP networking, Firewalls, Routing, and Load Balancing. </li>\n<li><b>Solid understanding of encryption</b>, authorization, authentication, and security mechanisms, especially the foundational elements of the Public Key Infrastructure.</li>\n<li><b>Excellent knowledge of data management</b>, including operational uses of RDBMS, Extract-Translate-Load operations, business intelligence data management, and data distribution / caching strategies</li>\n</ul>",
+      "rating":0,
+      "date":1426225468185,
+      "usersRated":0,
+      "level":2
+   },
+   {
+      "id":5763418761986048,
+      "language":"Java",
+      "category":"Architecture, Patterns, UML...",
+      "subCategory":"J2ee patterns",
+      "questionTxt":{
+         "value":" Explain j2ee patterns"
+      },
+      "answerTxt":{
+         "value":"<ul>\n<li><b>Intercepting Filter</b> intercepts incoming requests and outgoing responses and applies a filter. These filters may be added and removed in a declarative manner, allowing them to be applied unobtrusively in a variety of combinations. After this preprocessing and/or post-processing is complete, the final filter in the group vectors control to the original target object. For an incoming request, this is often a Front Controller, but may be a View.<br/></li>\n<li><b>Front Controller</b> is a container to hold the common processing logic that occurs within the presentation tier and that may otherwise be erroneously placed in a View. A controller handles requests and manages content retrieval, security, view management, and navigation, delegating to a Dispatcher component to dispatch to a View.<br/></li>\n<li><b>Application Controller</b> centralizes control, retrieval, and invocation of view and command processing. While a Front Controller acts as a centralized access point and controller for incoming requests, the Application Controller is responsible for identifying and invoking commands, and for identifying and dispatching to views.<br/></li>\n<li><b>Context Object</b> encapsulates state in a protocol-independent way to be shared throughout your application. Using Context Object makes testing easier, facilitating a more generic test environment with reduced dependence upon a specific container.<br/></li>\n<li><b>View Helper</b> encourages the separation of formatting-related code from other business logic. It suggests using Helper components to encapsulate logic relating to initiating content retrieval, validation, and adapting and formatting the model. The View component is then left to encapsulate the presentation formatting. Helper components typically delegate to the business services via a Business Delegate or an Application Service, while a View may be composed of multiple subcomponents to create its template.<br/></li>\n<li><b>Composite View</b> suggests composing a View from numerous atomic pieces. Multiple smaller views, both static and dynamic, are pieced together to create a single template. The Service to Worker and Dispatcher View patterns represent a common combination of other patterns from the catalog. The two patterns share a common structure, consisting of a controller working with a Dispatcher, Views, and Helpers. Service to Worker and Dispatcher View have similar participant roles, but differ in the division of labor among those roles. Unlike Service to Worker, Dispatcher View defers business processing until view processing has been performed.<br/></li>\n<li><b>Business Delegate</b> reduces coupling between remote tiers and provides an entry point for accessing remote services in the business tier. A Business Delegate might also cache data as necessary to improve performance. A Business Delegate encapsulates a Session Facade and maintains a one-to-one relationship with that Session Facade. An Application Service uses a Business Delegate to invoke a Session Facade.<br/></li>\n<li><b>Service Locator</b> encapsulates the implementation mechanisms for looking up business service components. A Business Delegate uses a Service Locator to connect to a Session Facade. Other clients that need to locate and connect to Session Facade, other business-tier services, and web services can use a Service Locator.<br/></li>\n<li><b>Session Facade</b> provides coarse-grained services to the clients by hiding the complexities of the business service interactions. A Session Facade might invoke several Application Service implementations or Business Objects. A Session Facade can also encapsulate a Value List Handler.<br/></li>\n<li><b>Application Service</b> centralizes and aggregates behavior to provide a uniform service layer to the business tier services. An Application Service might interact with other services or Business Objects. An Application Service can invoke other Application Services and thus create a layer of services in your application.<br/></li>\n<li><b>Business Object</b> implements your conceptual domain model using an object model. Business Objects separate business data and logic into a separate layer in your application. Business Objects typically represent persistent objects and can be transparently persisted using Domain Store.<br/></li>\n<li><b>Composite Entity</b> implements a Business Object using local entity beans and POJOs. When implemented with bean-managed persistence, a Composite Entity uses Data Access Objects to facilitate persistence.<br/></li>\n<li><b>The Transfer Object</b> pattern provides the best techniques and strategies to exchange data across tiers (that is, across system boundaries) to reduce the network overhead by minimizing the number of calls to get data from another tier.<br/></li>\n<li><b>The Transfer Object Assembler</b> constructs a composite Transfer Object from various sources. These sources could be EJB components, Data Access Objects, or other arbitrary Java objects. This pattern is most useful when the client needs to obtain data for the application model or part of the model.<br/></li>\n<li><b>The Value List Handler</b> uses the GoF iterator pattern to provide query execution and processing services. The Value List Handler caches the results of the query execution and return subsets of the result to the clients as requested. By using this pattern, it is possible to avoid overheads associated with finding large numbers of entity beans. The Value List Handler uses a Data Access Object to execute a query and fetch the results from a persistent store.<br/></li>\n<li><b>Data Access Object</b> enables loose coupling between the business and resource tiers. Data Access Object encapsulates all the data access logic to create, retrieve, delete, and update data from a persistent store. Data Access Object uses Transfer Object to send and receive data.<br/></li>\n<li><b>Service Activator</b> enables asynchronous processing in your enterprise applications using JMS. A Service Activator can invoke Application Service, Session Facade or Business Objects. You can also use several Service Activators to provide parallel asynchronous processing for long running tasks.<br/></li>\n<li><b>Domain Store</b> provides a powerful mechanism to implement transparent persistence for your object model. It combines and links several other patterns including Data Access Objects.<br/></li>\n<li><b>Web Service Broker</b> exposes and brokers one or more services in your application to external clients as a web service using XML and standard web protocols. A Web Service Broker can interact with Application Service and Session Facade. A Web Service Broker uses one or more Service Activators to perform asynchronous processing of a request.</li>\n</ul>"
+      },
+      "question":" Explain j2ee patterns",
+      "answer":"<ul>\n<li><b>Intercepting Filter</b> intercepts incoming requests and outgoing responses and applies a filter. These filters may be added and removed in a declarative manner, allowing them to be applied unobtrusively in a variety of combinations. After this preprocessing and/or post-processing is complete, the final filter in the group vectors control to the original target object. For an incoming request, this is often a Front Controller, but may be a View.<br/></li>\n<li><b>Front Controller</b> is a container to hold the common processing logic that occurs within the presentation tier and that may otherwise be erroneously placed in a View. A controller handles requests and manages content retrieval, security, view management, and navigation, delegating to a Dispatcher component to dispatch to a View.<br/></li>\n<li><b>Application Controller</b> centralizes control, retrieval, and invocation of view and command processing. While a Front Controller acts as a centralized access point and controller for incoming requests, the Application Controller is responsible for identifying and invoking commands, and for identifying and dispatching to views.<br/></li>\n<li><b>Context Object</b> encapsulates state in a protocol-independent way to be shared throughout your application. Using Context Object makes testing easier, facilitating a more generic test environment with reduced dependence upon a specific container.<br/></li>\n<li><b>View Helper</b> encourages the separation of formatting-related code from other business logic. It suggests using Helper components to encapsulate logic relating to initiating content retrieval, validation, and adapting and formatting the model. The View component is then left to encapsulate the presentation formatting. Helper components typically delegate to the business services via a Business Delegate or an Application Service, while a View may be composed of multiple subcomponents to create its template.<br/></li>\n<li><b>Composite View</b> suggests composing a View from numerous atomic pieces. Multiple smaller views, both static and dynamic, are pieced together to create a single template. The Service to Worker and Dispatcher View patterns represent a common combination of other patterns from the catalog. The two patterns share a common structure, consisting of a controller working with a Dispatcher, Views, and Helpers. Service to Worker and Dispatcher View have similar participant roles, but differ in the division of labor among those roles. Unlike Service to Worker, Dispatcher View defers business processing until view processing has been performed.<br/></li>\n<li><b>Business Delegate</b> reduces coupling between remote tiers and provides an entry point for accessing remote services in the business tier. A Business Delegate might also cache data as necessary to improve performance. A Business Delegate encapsulates a Session Facade and maintains a one-to-one relationship with that Session Facade. An Application Service uses a Business Delegate to invoke a Session Facade.<br/></li>\n<li><b>Service Locator</b> encapsulates the implementation mechanisms for looking up business service components. A Business Delegate uses a Service Locator to connect to a Session Facade. Other clients that need to locate and connect to Session Facade, other business-tier services, and web services can use a Service Locator.<br/></li>\n<li><b>Session Facade</b> provides coarse-grained services to the clients by hiding the complexities of the business service interactions. A Session Facade might invoke several Application Service implementations or Business Objects. A Session Facade can also encapsulate a Value List Handler.<br/></li>\n<li><b>Application Service</b> centralizes and aggregates behavior to provide a uniform service layer to the business tier services. An Application Service might interact with other services or Business Objects. An Application Service can invoke other Application Services and thus create a layer of services in your application.<br/></li>\n<li><b>Business Object</b> implements your conceptual domain model using an object model. Business Objects separate business data and logic into a separate layer in your application. Business Objects typically represent persistent objects and can be transparently persisted using Domain Store.<br/></li>\n<li><b>Composite Entity</b> implements a Business Object using local entity beans and POJOs. When implemented with bean-managed persistence, a Composite Entity uses Data Access Objects to facilitate persistence.<br/></li>\n<li><b>The Transfer Object</b> pattern provides the best techniques and strategies to exchange data across tiers (that is, across system boundaries) to reduce the network overhead by minimizing the number of calls to get data from another tier.<br/></li>\n<li><b>The Transfer Object Assembler</b> constructs a composite Transfer Object from various sources. These sources could be EJB components, Data Access Objects, or other arbitrary Java objects. This pattern is most useful when the client needs to obtain data for the application model or part of the model.<br/></li>\n<li><b>The Value List Handler</b> uses the GoF iterator pattern to provide query execution and processing services. The Value List Handler caches the results of the query execution and return subsets of the result to the clients as requested. By using this pattern, it is possible to avoid overheads associated with finding large numbers of entity beans. The Value List Handler uses a Data Access Object to execute a query and fetch the results from a persistent store.<br/></li>\n<li><b>Data Access Object</b> enables loose coupling between the business and resource tiers. Data Access Object encapsulates all the data access logic to create, retrieve, delete, and update data from a persistent store. Data Access Object uses Transfer Object to send and receive data.<br/></li>\n<li><b>Service Activator</b> enables asynchronous processing in your enterprise applications using JMS. A Service Activator can invoke Application Service, Session Facade or Business Objects. You can also use several Service Activators to provide parallel asynchronous processing for long running tasks.<br/></li>\n<li><b>Domain Store</b> provides a powerful mechanism to implement transparent persistence for your object model. It combines and links several other patterns including Data Access Objects.<br/></li>\n<li><b>Web Service Broker</b> exposes and brokers one or more services in your application to external clients as a web service using XML and standard web protocols. A Web Service Broker can interact with Application Service and Session Facade. A Web Service Broker uses one or more Service Activators to perform asynchronous processing of a request.</li>\n</ul>",
+      "rating":0,
+      "date":1426225479850,
+      "usersRated":0,
+      "level":2
+   },
+   {
+      "id":6232233769697280,
+      "language":"Java",
+      "category":"Architecture, Patterns, UML...",
+      "subCategory":"J2ee patterns",
+      "questionTxt":{
+         "value":"J2ee patterns at a glance"
+      },
+      "answerTxt":{
+         "value":"<img src=\"images/CJP2Catalog.gif\"/> <br/>\nref: <a href=\"www.corej2eepatterns.com\">corej2eepatterns.com</a>"
+      },
+      "question":"J2ee patterns at a glance",
+      "answer":"<img src=\"images/CJP2Catalog.gif\"/> <br/>\nref: <a href=\"www.corej2eepatterns.com\">corej2eepatterns.com</a>",
+      "rating":0,
+      "date":1426225474044,
+      "usersRated":0,
+      "level":2
+   },
+   {
+      "id":5125787917221888,
+      "language":"Java",
+      "category":"Architecture, Patterns, UML...",
+      "subCategory":"JSR",
+      "questionTxt":{
+         "value":"JSR 286 - Portlet specification - improved"
+      },
+      "answerTxt":{
+         "value":"<a href=\"JSR286.pdf\">JSR 286</a>"
+      },
+      "question":"JSR 286 - Portlet specification - improved",
+      "answer":"<a href=\"JSR286.pdf\">JSR 286</a>",
+      "rating":0,
+      "date":1426225491502,
+      "usersRated":0,
+      "level":2
+   },
+   {
+      "id":5630721452408832,
+      "language":"Java",
+      "category":"Architecture, Patterns, UML...",
+      "subCategory":"JSR",
+      "questionTxt":{
+         "value":"JSR 186 - Portlet specification"
+      },
+      "answerTxt":{
+         "value":"<a href=\"JSR168.pdf\">JSR 168</a>"
+      },
+      "question":"JSR 186 - Portlet specification",
+      "answer":"<a href=\"JSR168.pdf\">JSR 168</a>",
+      "rating":0,
+      "date":1426225485685,
+      "usersRated":0,
+      "level":2
+   }
+]

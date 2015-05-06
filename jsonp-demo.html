@@ -1,31 +1,26 @@
 <html>
     <head>
-        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
         <script>
             $(document).ready(function(){
-			$.getJSON( "http://jshoutbox.appspot.com/qa/listJson?password=sandeep123&page=1&size=1", function( data ){
-  console.log( data.title ); // Logs "jQuery Howto"
-});
-
-                $.ajax({
-                    url: 'http://jshoutbox.appspot.com/qa/listJson?password=sandeep123&page=1&size=1',
+			var categoryHtml;
+				$.getJSON( "data/data_1-10.json", function( data ){
+					 $.each(data, function(index) {
+							categoryHtml += '<li>'+this.category +'<br>'+ this.subCategory+'</li>';
+					});
 					
-					headers: { 'Accept-Encoding' : 'deflate' },
-					beforeSend : function (xhr) {
-						xhr.setRequestHeader('Accept-Encoding', 'identity');
-						xhr.setRequestHeader('X-Test', 'foo');
-					},
-                    dataType: 'jsonp',
-					crossDomain: true,
-                    success: function(dataWeGotViaJsonp){                        
-                       alert(dataWeGotViaJsonp)
-                        $('#twitterFeed').html(dataWeGotViaJsonp);
-                    }
-                });
-            })
+					$('#categories').html("<ul>"+categoryHtml+"</ul>");
+					});
+			});
+
         </script>
     </head>
     <body>
-        <div id = 'twitterFeed'></div>
+        
+   <div id="demo" >
+    <div id="categories"></div>
+	</div>
+
     </body>
+
 </html>
