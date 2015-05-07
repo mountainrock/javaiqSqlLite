@@ -39,7 +39,7 @@ function setLocalStorage() {
         $.ajax({
                     type : "GET",
                     url : urlJson,
-                    dataType : "json",
+                    dataType : "jsonp",
                     success : function(data) {                        
                         window.localStorage.setItem("javaIQ", JSON.stringify(data));
                         // console.log(jQuery.parseJSON(window.localStorage.getItem("javaIQ")));
@@ -56,8 +56,9 @@ function setLocalStorage() {
 
 function getContent(myObject) {
 
-    var categoryHtml;
+    var categoryHtml="";
     $.each(myObject, function(index) {
+		
 							categoryHtml += '<li> <a href="#topicsPage" data-val="'+this.category+'">'+this.category +'</a></li>';
 			});
 					
@@ -76,13 +77,14 @@ function getContent(myObject) {
 
 function displayTopics(category, myObject){
 	//alert(category);
-	 var topicsHtml;
+	 var topicsHtml="";
 	 $.each(myObject, function(index) {
 			if(this.category  == category){
 							topicsHtml += '<li> <a href="#qaPage" data-val="'+this.subCategory+'">'+this.subCategory +'</a></li>';
 			}
 	});
 	$('#subCategories').html( topicsHtml);
+	
 	$('#subCategories a').click( function(event) {
 		 subCategory = $(this).data("val");
 		 log("Getting detail for "+subCategory);
@@ -90,11 +92,12 @@ function displayTopics(category, myObject){
     });
 	
 	jQuery.mobile.changePage(jQuery('#topicsPage'));
+	$('#subCategories').listview('refresh');
 }
 
 function displayQA(subCategory, myObject){
 	//alert(category);
-	 var qaHtml;
+	 var qaHtml="";
 	 $.each(myObject, function(index) {
 			if(this.subCategory  == subCategory){
 							qaHtml += '<li><b>'+this.questionTxt.value +'</b><br/>'+this.answerTxt.value +'</li>';
